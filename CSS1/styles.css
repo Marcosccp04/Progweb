@@ -1,0 +1,15 @@
+div {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	max-width: 320px;
+ 	border:12px solid black;
+ 	border-bottom-left-radius: 50px;
+ 	border-top-right-radius: 50px;
+ 	border-top-left-radius: 15px;
+ 	border-bottom-right-radius: 15px;
+ 	background-color: silver;
+ 	
+}
