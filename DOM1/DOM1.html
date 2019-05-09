@@ -1,0 +1,36 @@
+<html> 
+	<head> 
+		<meta charset="utf-8" /> 
+		<style> 
+			.espaco { 
+				margin-left: 10px;
+			}
+		</style>
+		<title>PRIMEIRA ATIVIDADE DE DOM</title>
+	</head> 
+
+	<body>
+		Informe o raio <input id="raio" class="espaco" type="text"> <br>
+		Área do círculo <input id="area" class="espaco" type="text"> <br>
+		Circunferência <input id="circunferencia" class="espaco" type="text"> <br>
+		<button id="btn" onclick="main()">Ok</button> 
+	</body> 
+	<script>
+		function calcularArea(raio) {  
+			r = parseFloat(raio); 
+			return 3.14*(r*r); 
+		}
+		function calcularCircunferencia(raio) { 
+			r = parseFloat(raio); 
+			return 2*3.14*r;
+		}
+		function main(){ 
+			var areaCirculo = document.getElementById("area");
+			var areaCircunferencia = document.getElementById("circunferencia"); 
+			var raio = document.getElementById("raio").value;
+			areaCirculo.value = calcularArea(raio); 
+			areaCircunferencia.value = calcularCircunferencia(raio); 
+		}
+	</script>
+
+</html>
