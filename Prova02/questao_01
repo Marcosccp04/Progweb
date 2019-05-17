@@ -1,0 +1,11 @@
+Questão_01.txt
+
+ERROS:
+
+01 - Na linha 02, neste caso a tag <body> esta antes do <head>, para corrigir este problema seria necessário colocar o <body> depois do <head>.
+
+02 - na linha 02 deveria ter a tag <html>, esta mesma tag deveria ser fechada ao final da aplicaçao da maneira </html> na ultima linha. 
+
+03 - foram criadas mais de uma tag <style> nas linhas 05 e 17, sendo que uma tag <style> seria o suficiente para armazenar todo o css desta pagina.
+
+04 - nas linhas 10 e 11, são criadas tags para escrever textos, estas tags deveriam estar dentro do <body> e não na tag <head>.
