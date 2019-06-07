@@ -1,0 +1,77 @@
+.deserto {
+    width: 500px;
+    height: 150px;
+   /* background-color: black;*/
+    position: relative;
+}
+
+.chao {
+    width: 500px;
+    height: 16px;
+    background-image: url(sprites.png);
+    background-position-y: -53px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.dino {
+    width: 43px;
+    height: 45px;
+    background-image: url(sprites.png);
+    background-position-y: -3px;
+    position: absolute;
+    z-index: 2;
+}
+
+.nuvem {
+    width: 47px;
+    height: 17px;
+    background-image: url(sprites.png);
+    background-position: -86px 2px;
+    position: absolute;
+    z-index: 1;
+}
+
+.opstaculo{
+    width: 25px;
+    height: 50px;
+    background-position: -332px -2px;
+    background-image: url(sprites.png);
+    position: absolute;
+    z-index: 1;
+}
+
+.opstaculoMedio{
+   width:  18px;
+    height: 35px;
+    background-position: -313px -2px;
+    background-image: url(sprites.png);
+    position: absolute;
+    z-index: 1;
+}
+
+.dinoVoador{
+    width: 44px;
+    height: 45px;
+    background-image: url(sprites.png);
+    background-position-y: -3px;
+    position: absolute;
+    z-index: 1;
+ }
+ 
+ .dinoAgachado{
+    width: 59px;
+    height: 45px;
+    background-image: url(sprites.png);
+    background-position-y: -3px;
+    position: absolute;
+    z-index: 1;
+ }
+
+ .contador {
+    background-image: url(sprites.png);
+    background-position: -484px -2px;
+    width: 10px;
+    height: 10px;
+    position: relative;
+ }
