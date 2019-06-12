@@ -1,4 +1,5 @@
-Questão_01.txt
+David: Erros reportados corretamente, com exceção do 03.
+Nota: 1.5
 
 ERROS:
 

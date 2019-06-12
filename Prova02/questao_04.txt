@@ -1,3 +1,6 @@
+David: Definição de closure incompleta e descrição do código parcialmente correta.
+Nota: 1.0
+ 
  Closure sao funcoes interiores que podem ter acesso a variaveis de uma funcao exterior;
  Neste codigo esta sendo criada uma variavel chamada moo para receber a funcao foo;
  Apos colocar o parametro 2 na variavel moo, entao na primeira chamada moo() ira imprimir 2;
